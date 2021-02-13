@@ -40,3 +40,18 @@ print(int(3.9852))#Python siempre redondea hacia abajo
 print(float(3))#C/esto convertimos de enteros a decimales
 print(str(33))#C/esto convertimos a datos de tipo String
 print(math.log10(17))
+#Estructuras logicas
+#if
+sueldo=int(input("Ingrese su sueldo")) #de esta manera podemos ingresar datos por consola 
+if sueldo > 20000:
+    print("Su sueldo es elevado")
+else:
+    print("Su sueldo es bajo")   
+#Todo lo que se encuentre en la rama del verdadero del if se debe disponer a 4 espacios corrido a derecha.
+#La indentación es una característica obligatoria del lenguaje Python para codificación de las estructuras condicionales, de esta forma el intérprete de Python puede identificar donde finalizan las instrucciones contenidas en la rama verdadera del if.
+num=int(input("Ingrese un numero:"))
+if num!=0:
+    print(num*10)
+else:
+    print("No igual")
+#Ej. de estructuras condicionales complejas
