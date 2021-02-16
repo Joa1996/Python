@@ -55,4 +55,4 @@ if num!=0:
     print(num*10)
 else:
     print("No igual")
-#Ej. de estructuras condicionales complejas
+
