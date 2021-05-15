@@ -6,5 +6,5 @@ conexion = pb.connect('Driver={SQL Server};'
 cursor = conexion.cursor()
 cursor.execute('SELECT * FROM Destino.dbo.Compras') #Ejecutamos una query
 for row in cursor:
-    print(row)
+    print(row)#
 
