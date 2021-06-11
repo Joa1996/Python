@@ -1,4 +1,4 @@
-#C/este Script lo que vamos ahace es descargar un Excel de un sharepoint y cargarlo a slq server
+#C/este Script lo que vamos hacer es descargar un Excel de un sharepoint y cargarlo a slq server
 from office365.runtime.auth.user_credential import UserCredential
 from office365.sharepoint.client_context import ClientContext
 import os
