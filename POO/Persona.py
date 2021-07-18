@@ -26,3 +26,6 @@ persona1.mostrar_detalle() #llamamos el metodo del objeto para imprimir
 per2=Persona('Maria','Eder',31) #per2 es una variable que apunta al objeto que acabamos de instanciar
 print(f'Objeto per2 : {per2.nombre} {per2.apellido} {per2.edad}') #una forma simple de imprimir los atributos de un objeto
 #Recordar que cada vez que se intancia un objeto lo que se crea es un espacio de memoria reservada para que trabajemos con este objeto
+#Python automaticamente elimina aquellos objetos que no se utilizan, esto se conoce como recolector de basura
+#Sin embargo podemos usar lo siguiente si lo quisieramos realizar de manera manual para liberar recursos
+del per2 #c/esto eliminamos a per2 que es la variable que apunta al objeto que se a creado
