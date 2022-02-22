@@ -7,7 +7,7 @@ class Persona:#Clase padre
         return f'Persona: {self.nombre} {self.edad}'
 
 class Empleado(Persona): #Clase Hija
-    def __init__(self, nombre, edad,sueldo):
+    def __init__(self, nombre, edad,sueldo): #Esto vendria ser como el metodo constructor 
         super().__init__(nombre, edad)#Traemos los atributos de la clase padre
         self.sueldo=sueldo
 
