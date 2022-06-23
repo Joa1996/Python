@@ -7,4 +7,4 @@ cursor = conexion.cursor()
 cursor.execute('SELECT * FROM Destino.dbo.Compras') #Ejecutamos una query
 for row in cursor:
     print(row)#
-
+conexion.commit() #Cerrar conexion con la BD una vez finalizamos nuestro procesos
