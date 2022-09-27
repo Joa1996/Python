@@ -34,3 +34,4 @@ for s in range(p):
         suma=suma+1
 print(suma)
 
+#Para salir de un bucle podemos usar la sentencia "break"
